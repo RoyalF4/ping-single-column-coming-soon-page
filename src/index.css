@@ -183,7 +183,7 @@ body {
   }
 
   .error-message {
-    grid-column: span 2;
+    justify-self: left;
     padding-left: 3em;
   }
 }
