@@ -112,13 +112,16 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.social-media-link:hover {
+.social-media-link:hover,
+.social-media-link:focus {
   background-color: var(--blue);
 }
 
-.social-media-link:hover > .fa-brands {
+.social-media-link:hover > .fa-brands,
+.social-media-link:focus > .fa-brands {
   color: white !important;
 }
 
