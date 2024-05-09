@@ -17,7 +17,7 @@ body {
   padding: 0 1.25em 0 1.25em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .main {
@@ -27,9 +27,9 @@ body {
 }
 
 .logo {
+  display: block;
   width: 60px;
-  margin-top: 5em;
-  margin-bottom: 2em;
+  margin: 5em auto 2em auto;
 }
 
 .heading {
@@ -66,8 +66,6 @@ body {
 }
 
 .subscribe-form__input-email:focus {
-  /* outline: none;
-  border: 2px solid var(--blue); */
   outline-color: var(--blue);
 }
 
@@ -142,6 +140,10 @@ body {
   position: absolute;
   top: -1.5em;
   left: 3.5em;
+}
+
+.footer {
+  margin-top: auto;
 }
 
 @media (min-width: 700px) {

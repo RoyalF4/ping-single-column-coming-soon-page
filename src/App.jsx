@@ -4,8 +4,10 @@ import Footer from './Footer';
 export default function App() {
   return (
     <>
-      <main className="main">
+      <header>
         <img src="/images/logo.svg" alt="logo" className="logo" />
+      </header>
+      <main className="main">
         <h1 className="heading">
           We are launching <span className="heading-accent">soon!</span>
         </h1>
