@@ -28,11 +28,15 @@ export default function EmailForm() {
         placeholder="Your email address..."
         aria-label="email address"
         ref={input}
+        aria-describedby="error"
         required
       />
       <button className="subscribe-form__submit">Notify Me</button>
       {error && (
-        <span className={`error-message ${error ? 'visible' : ''}`}>
+        <span
+          id="error"
+          className={`error-message error ${error ? 'visible' : ''}`}
+        >
           {error}
         </span>
       )}

@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <header>
-        <img src="/images/logo.svg" alt="logo" className="logo" />
+        <img src="/images/logo.svg" alt="ping logo" className="logo" />
       </header>
       <main className="main">
         <h1 className="heading">
