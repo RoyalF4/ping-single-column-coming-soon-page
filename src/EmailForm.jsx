@@ -31,7 +31,11 @@ export default function EmailForm() {
         required
       />
       <button className="subscribe-form__submit">Notify Me</button>
-      {error && <span className="error-message">{error}</span>}
+      {error && (
+        <span className={`error-message ${error ? 'visible' : ''}`}>
+          {error}
+        </span>
+      )}
     </form>
   );
 }
