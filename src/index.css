@@ -55,6 +55,7 @@ body {
   gap: 10px;
   width: 280px;
   margin-bottom: 3.5em;
+  position: relative;
 }
 
 .subscribe-form__input-email {
@@ -68,6 +69,10 @@ body {
   /* outline: none;
   border: 2px solid var(--blue); */
   outline-color: var(--blue);
+}
+
+.subscribe-form__input-email:invalid {
+  border-color: red;
 }
 
 .subscribe-form__input-email::placeholder {
@@ -130,6 +135,15 @@ body {
   margin-bottom: 3em;
 }
 
+.error-message {
+  font-style: italic;
+  color: red;
+  font-size: 0.75rem;
+  position: absolute;
+  top: -1.5em;
+  left: 3.5em;
+}
+
 @media (min-width: 700px) {
   .logo {
     width: 90px;
@@ -163,5 +177,10 @@ body {
 
   .copyright {
     font-size: 0.8rem;
+  }
+
+  .error-message {
+    top: 5em;
+    left: 2.5em;
   }
 }
