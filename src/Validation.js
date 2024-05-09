@@ -5,7 +5,7 @@ export default function Validation(input) {
     return '';
   } else {
     if (input.validity.valueMissing) {
-      return 'Input cannot be empty';
+      return 'An email is required';
     } else if (input.validity.typeMismatch) {
       return 'Please provide a valid email address';
     }
