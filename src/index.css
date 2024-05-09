@@ -71,7 +71,7 @@ body {
   outline-color: var(--blue);
 }
 
-.subscribe-form__input-email:invalid {
+.error-input {
   border-color: red;
 }
 

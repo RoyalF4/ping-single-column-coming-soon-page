@@ -24,7 +24,7 @@ export default function EmailForm() {
         type="email"
         name="email"
         id="email"
-        className="subscribe-form__input-email"
+        className={`subscribe-form__input-email ${error ? 'error-input' : ''}`}
         placeholder="Your email address..."
         aria-label="email address"
         ref={input}
