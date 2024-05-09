@@ -30,6 +30,7 @@ export default function EmailForm() {
         ref={input}
         aria-describedby="error"
         required
+        autoFocus
       />
       <button className="subscribe-form__submit">Notify Me</button>
       {error && (

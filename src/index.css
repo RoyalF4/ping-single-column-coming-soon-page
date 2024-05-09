@@ -85,6 +85,11 @@ body {
   cursor: pointer;
 }
 
+.subscribe-form__submit:active {
+  transform: scale(0.97);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
 .subscribe-form__submit:hover {
   background-color: hsl(223, 87%, 68%);
 }
